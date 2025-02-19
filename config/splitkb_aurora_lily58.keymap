@@ -14,10 +14,6 @@
     flavor = "tap-preferred";
 };
 
-&key_repeat {
-    tapping-term-ms = <400>;
-};
-
 / {
     keymap {
         compatible = "zmk,keymap";
