@@ -6,8 +6,8 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
 
     # For more images
-    - name: gpeye
-      url-base: https://github.com/GPeye
+    # - name: gpeye
+    #   url-base: https://github.com/GPeye
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -15,8 +15,8 @@ manifest:
       import: app/west.yml
 
     # For more images
-    - name: hammerbeam-slideshow
-      remote: gpeye
-      revision: main
+    # - name: hammerbeam-slideshow
+    #   remote: gpeye
+    #   revision: main
   self:
     path: config
